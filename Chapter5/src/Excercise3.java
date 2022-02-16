@@ -5,31 +5,41 @@ public class Excercise3 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		int userNumber;
+		float userNumber;
 		System.out.println("Input your number: ");
-		userNumber = in.nextInt();
-		boolean result = isPositive(userNumber);
-		if (result)
-		{
-			System.out.println("The number is positive");
-		}
-		else
-		{
-			System.out.println("The number is negative");
-		}
+		userNumber = in.nextFloat();
+		String newString = analyzeFloat(userNumber);
+		System.out.println(newString);
+		
 	}
 		
 		
-		public static boolean isPositive(int userNumber)
+		public static String analyzeFloat(float userNumber)
 		{
-			if(userNumber >= 0)
+			String myString = null;
+			if(userNumber > 0)
 			{
-				return true;
+				myString = "Positive";
+			}
+			else if (userNumber < 0)
+			{
+				myString = "Negative";
 			}
 			else 
 			{
-				return false;
+				myString = "Zero";
 			}
+			
+			if(userNumber > 1000000)
+			{
+				myString = myString + " & Large";
+			}
+			else if(userNumber < 1)
+			{
+				myString = myString + " & Small";
+			}
+			
+			return myString;
 		}
 			
 			
