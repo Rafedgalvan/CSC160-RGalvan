@@ -9,7 +9,7 @@ public class FactorialWhile {
 		System.out.println("Input your number: ");
 		userNumber = in.nextInt();
 
-	/*	int sum = 1;
+		int sum = 1;
 		int i = 1;
 
 		while (i <= userNumber) {
@@ -22,7 +22,7 @@ public class FactorialWhile {
 			i++;
 		}
 		System.out.print(" = " + sum);
-*/
+
 	}
 
 }
