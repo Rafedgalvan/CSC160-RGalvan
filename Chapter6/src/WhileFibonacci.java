@@ -1,34 +1,5 @@
 import java.util.Scanner;
 
-
-public class RightAngleLoop {
-
-	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		int userNumber;
-		System.out.println("Input your number of rows: ");
-		userNumber = in.nextInt();
-		
-
-
-	}	
-	
-	public static void getUserNumber() {
-		int userNumber;
-		for (int i = 1; i <= userNumber; i++) {
-			for(int x = 1; x<= i; x++) {
-				System.out.print(x);
-			}
-		}
-	}
-	
-	
-}
-
-
-
-/*import java.util.Scanner;
-
 public class WhileFibonacci {
 
 	public static void main(String[] args) {
@@ -56,4 +27,10 @@ public class WhileFibonacci {
 			System.out.print(currentNumber + " ");
 			number1 = number2;
 			number2 = currentNumber;
-			i++; */
+			i++;
+
+		}
+
+	}
+
+}
