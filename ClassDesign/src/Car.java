@@ -50,6 +50,10 @@ public class Car {
 	
 	
 	//Methods
+	public boolean equals(Car otherCar) { // has to be equals bc its comparing strings(also do this with objects)
+		return color.equals(otherCar.getColor()); // take one string give it the other string 
+	}
+	
 	public void selfClean()
 	{
 		System.out.println("Clean car!!");
@@ -61,6 +65,8 @@ public class Car {
 		
 		System.out.println("Clean car");
 	}
+	
+	
 }
 	
 	
