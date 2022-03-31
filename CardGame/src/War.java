@@ -6,7 +6,10 @@ public class War {
 	//	System.out.println(myDeck);
 
 		myDeck.shuffle();
-	// System.out.println(myDeck);
+		System.out.println(myDeck);
+		
+		myDeck.selectionSort();
+		System.out.println(myDeck);
 
 		Pile player1 = new Pile();
 		Pile player2 = new Pile();

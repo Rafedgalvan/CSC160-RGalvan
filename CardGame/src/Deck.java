@@ -86,7 +86,20 @@ public class Deck {
 		return deck;
 	}
 	
-	
-	
+	public void selectionSort() {
+		for(int i = 0; i < cards.length ; i++) {
+			int min_idx = i;
+			
+			for(int j = i+1; j < cards.length; j++) {
+				if(cards[j].compareTo(cards[min_idx]) == -1)
+					min_idx = j;
+			}
+			
+			Card temp = cards[min_idx];
+			cards[min_idx] = cards[i];
+			cards[i] = temp;
+	}
+}
+
 }
 //
