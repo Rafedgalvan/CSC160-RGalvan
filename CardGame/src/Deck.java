@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Random;
 
 public class Deck {
 
@@ -36,6 +37,12 @@ public class Deck {
 
 			}
 		}
+		
+		
+	}
+	
+	public Deck(int n) {
+		this.cards = new Card[n];
 	}
 
 	@Override
@@ -45,12 +52,41 @@ public class Deck {
 	
 	public int search(int rank, int suit) {
 		for(int i = 0; i < cards.length; i++ ) {
-			if(cards[i].equals(suit)) {
+			if(cards[i].equals(rank) && cards[i].equals(suit)) {
 				return i;
 			}
 		}
 		return -1;
 	}
 	
+	
+	public void shuffle() {
+		Random random = new Random();
 
+		int j;
+		for(int i = 0; i < cards.length; i++) {
+			j = random.nextInt(cards.length);
+			Card tempCard = cards[i];
+			cards[i] = cards[j];
+			cards[j] = tempCard;
+			
+		}
+		
+	}
+
+	
+	public Deck subDeck(int low, int high) {
+		Deck deck = new Deck((high - low) + 1); 
+		int count = 0; 
+		for(int i = low; i <= high; i++) {
+			deck.cards[count] = cards[i];
+			count++;
+			
+		}
+		return deck;
+	}
+	
+	
+	
 }
+//
