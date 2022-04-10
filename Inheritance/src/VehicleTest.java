@@ -1,7 +1,14 @@
+import java.util.Scanner;
+
 
 public class VehicleTest {
 
 	public static void main(String[] args) {
+		
+		int answer = Integer.parseInt("5");
+		answer += 5;
+		System.out.println(answer);
+		
 		Vehicle myVehicle = new Vehicle("ss", 1, 100);
 		
 		System.out.println(myVehicle);
@@ -32,6 +39,34 @@ public class VehicleTest {
 		for(int i = 0; i < vehicles2.length; i++) {
 			System.out.println(vehicles2[i]);
 			}
+		((Truck)vehicles2[2]).getBedLength();
+		
+		Object myTruck = new Truck("RR5", 0, 150, 7);
+		System.out.println(myTruck);
+		
+		((Truck)myTruck).setBedLength(9);
+		System.out.println(myTruck);
+		
+		Vehicle truck = new Truck("RR5", 0, 150, 7);
+		String Trim =((Car)myTruck).getTrim();
+		
+		Vehicle vech = null;
+		Scanner in = new Scanner(System.in);
+		int input = in.nextInt();
+		
+		if(input == 1) {
+			vech = new Car("RR5", 0, 150, "Sports");
+		}
+		else {
+			vech = new Truck("RR5", 0, 150, 7);
+		}
+		if(vech instanceof Car) {
+			Trim = ((Car)vech).getTrim();
+		}
+		
+		System.out.println(vech);
+		
+		
 		
 	}
 
