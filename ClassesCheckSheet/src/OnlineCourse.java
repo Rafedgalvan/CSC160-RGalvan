@@ -1,5 +1,5 @@
 
-public class OnlineCourse {
+public class OnlineCourse extends Course {
 	private String courseNumber;
 	private int numStudents;
 	private int maxStudents;

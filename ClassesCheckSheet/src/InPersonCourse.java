@@ -6,6 +6,7 @@ public class InPersonCourse extends Course {
 		return roomNumber;
 	}
 
+
 	public void setRoomNumber(String roomNumber) {
 		this.roomNumber = roomNumber;
 	}

@@ -63,6 +63,10 @@ public class Course {
 		this.maxStudents = maxStudents;
 		this.credits = credits;
 	}
+	
+	public Course() {
+		
+	}
 
 	@Override
 	public String toString() {
