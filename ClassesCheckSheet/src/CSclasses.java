@@ -6,9 +6,9 @@ public class CSclasses {
 	public static void main(String[] args) {
 		InPersonCourse myCourse = new InPersonCourse("", 0, 0, 0, "");
 
-		System.out.println("Input 1 for In Person Course");
+		/*System.out.println("Input 1 for In Person Course");
 		System.out.println("Input 2 for Full Remote Course");
-		System.out.println("Input 3 for Real Time Remote Course");
+		System.out.println("Input 3 for Real Time Remote Course");*/
 
 		ArrayList<Course> courseList = new ArrayList<Course>();
 
