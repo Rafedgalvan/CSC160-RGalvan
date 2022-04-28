@@ -1,4 +1,6 @@
-
+/* 
+ * Copyright (c) 2022 Rafael Galvan
+ */
 public class War {
 
 	public static void main(String[] args) {
@@ -10,6 +12,14 @@ public class War {
 		
 		myDeck.selectionSort();
 		System.out.println(myDeck);
+		
+		myDeck.shuffle();
+		System.out.println(myDeck);
+		
+		myDeck.recursiveSort();
+	//	System.out.println();
+		
+		
 
 		Pile player1 = new Pile();
 		Pile player2 = new Pile();

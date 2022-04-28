@@ -1,0 +1,2 @@
+The moon is not full today.
+The moon is  full today.

@@ -1,3 +1,7 @@
+/* 
+ * Copyright (c) 2022 Rafael Galvan
+ */
+
 
 public class Card {
 

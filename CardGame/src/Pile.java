@@ -1,3 +1,6 @@
+/* 
+ * Copyright (c) 2022 Rafael Galvan
+ */
 import java.util.ArrayList;
 
 
