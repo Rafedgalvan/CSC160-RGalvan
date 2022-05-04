@@ -1,6 +1,10 @@
 InPersonCourse, PHY160, 15, 25, 3, BP119
 InPersonCourse, ECO120, 19, 25, 3, RP140
+InPersonCourse, HIS101, 13, 28, 3, RP112
+InPersonCourse, MAT162, 11, 30, 5, BP1092
 FullRemoteCourse, CSC119, 10, 20, 4, User@Gmail.com
 FullRemoteCourse, ENG101, 12, 30, 5, User@Gmail.com
+FullRemoteCourse, ACC120, 17, 20, 4, User@Gmail.com
+FullRemoteCourse, SCO, 15, 20, 3, User@Gmail.com
 RealTimeRemoteCourse, MAT160, 10, 20, 5, Link
 RealTimeRemoteCourse, CHE110, 14, 30, 5, Link

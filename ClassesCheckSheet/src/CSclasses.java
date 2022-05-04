@@ -23,15 +23,23 @@ public class CSclasses {
 
 		InPersonCourse inPersonCourse1 = new InPersonCourse("PHY160", 15, 25, 3, "BP119");
 		InPersonCourse inPersonCourse2 = new InPersonCourse("ECO120", 19, 25, 3, "RP140");
+		InPersonCourse inPersonCourse3 = new InPersonCourse("HIS101", 13, 28, 3, "RP112");
+		InPersonCourse inPersonCourse4 = new InPersonCourse("MAT162", 11, 30, 5, "BP1092");
 		FullRemoteCourse fullRemoteCourse1 = new FullRemoteCourse("CSC119", 10, 20, 4, "User@Gmail.com");
 		FullRemoteCourse fullRemoteCourse2 = new FullRemoteCourse("ENG101", 12, 30, 5, "User@Gmail.com");
+		FullRemoteCourse fullRemoteCourse3 = new FullRemoteCourse("ACC120", 17, 20, 4, "User@Gmail.com");
+		FullRemoteCourse fullRemoteCourse4 = new FullRemoteCourse("SCO", 15, 20, 3, "User@Gmail.com");
 		RealTimeRemoteCourse realTimeRemoteCourse1 = new RealTimeRemoteCourse("MAT160", 10, 20, 5, "Link");
 		RealTimeRemoteCourse realTimeRemoteCourse2 = new RealTimeRemoteCourse("CHE110", 14, 30, 5, "Link");
 
 		courseList.add(inPersonCourse1);
 		courseList.add(inPersonCourse2);
+		courseList.add(inPersonCourse3);
+		courseList.add(inPersonCourse4);
 		courseList.add(fullRemoteCourse1);
 		courseList.add(fullRemoteCourse2);
+		courseList.add(fullRemoteCourse3);
+		courseList.add(fullRemoteCourse4);
 		courseList.add(realTimeRemoteCourse1);
 		courseList.add(realTimeRemoteCourse2);
 
