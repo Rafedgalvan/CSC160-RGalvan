@@ -3,7 +3,10 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
+
 
 public class CSclasses {
 
@@ -16,7 +19,7 @@ public class CSclasses {
 		 * System.out.println("Input 3 for Real Time Remote Course");
 		 */
 
-		ArrayList<Course> courseList = new ArrayList<Course>();
+		List<Course> courseList = new LinkedList<>();
 
 		InPersonCourse inPersonCourse1 = new InPersonCourse("PHY160", 15, 25, 3, "BP119");
 		InPersonCourse inPersonCourse2 = new InPersonCourse("ECO120", 19, 25, 3, "RP140");
